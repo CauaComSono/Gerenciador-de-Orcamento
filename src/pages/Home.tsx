@@ -30,6 +30,8 @@ const Home: React.FC = () => {
         onEdit={handleEditTransaction} 
       />
       <Link to="/dashboard">Ir para o Dashboard</Link>
+
+      <p>O site é um gerenciador de orçamento pessoal e ele te auxilia a controlar suas financias, podendo adicionar receitas e despesas.</p>
     </div>
   );
 };
